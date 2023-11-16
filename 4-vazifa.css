@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 246, 58);
+}
+.nav__1{
+    width: 500px;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.nav__1>input{
+    margin: 15px;
+    width: 400px;
+    height: 50px;
+}
+.nav__a{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.nav__a>strong{
+    color: rgb(144, 143, 143);
+}
+.nav__a>p{
+    color: rgb(31, 167, 31);
+    font-family: Roboto;
+}
+.nav__1>button{
+    width: 400px;
+    height: 50px;
+    background-color: rgb(52, 244, 52);
+}
